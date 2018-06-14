@@ -4,7 +4,7 @@
   "description": "A babel transform for cherry-picking yup models",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/lionize/babel-plugin-yup/issues"
   },
-  "homepage": "https://github.com/lionize/babel-plugin-yup#readme"
+  "homepage": "https://github.com/lionize/babel-plugin-yup#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-tester": "^5.4.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "jest": "^23.1.0"
+  },
+  "dependencies": {}
 }
