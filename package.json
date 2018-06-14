@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-yup",
+  "version": "0.0.0",
+  "description": "A babel transform for cherry-picking yup models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionize/babel-plugin-yup.git"
+  },
+  "keywords": [
+    "yup",
+    "validation",
+    "babel",
+    "transform",
+    "plugin"
+  ],
+  "author": "Mark Chandler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lionize/babel-plugin-yup/issues"
+  },
+  "homepage": "https://github.com/lionize/babel-plugin-yup#readme"
+}
