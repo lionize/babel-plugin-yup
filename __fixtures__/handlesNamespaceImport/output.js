@@ -1,11 +1,10 @@
-import { object, mixed, number } from 'yup';
+import { object as _object, mixed as _mixed, number as _number } from 'yup';
 
-
-const schema = object();
-const otherSchema = mixed();
+const schema = _object();
+const otherSchema = _mixed();
 
 function test() {
-  return number();
+  return _number();
 }
 
-export default object;
+export default _object;
